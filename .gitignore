@@ -1,0 +1,7 @@
+# Generated binaries and temporary files
+itsa
+TMalign
+*.o
+__pycache__/
+*.py[cod]
+.DS_Store

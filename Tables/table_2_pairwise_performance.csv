@@ -1,0 +1,6 @@
+Method,ROC AUC,Average precision
+Raw ordered ITSA,0.8775053556,0.3745166004
+Shuffled ITSA,0.7293551514,0.1018965136
+Composition cosine,0.57616969099,0.04563361781
+Exhaustive Foldseek probability,0.9853956594,0.7799058992
+TM-align,0.9935130929,0.9001428752

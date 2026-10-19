@@ -1,0 +1,29 @@
+family_sunid,sccs_family,family_name,domains,positive_pairs,negative_pairs,TM-align AUC,TM-align AP
+57851,g.44.1.1,"RING finger domain, C3HC4",5,10,1085,1.0,1.0
+55425,d.87.1.1,"FAD/NAD-linked reductases, dimerisation (C-terminal) domain",10,45,2113,0.9469579849608245,0.831235930426189
+56236,d.153.1.1,Class II glutamine amidotransferases,8,28,1709,1.0,1.0
+47577,a.40.1.1,"Calponin-homology domain, CH-domain",5,10,1085,1.0,1.0
+54453,d.19.1.1,MHC antigen-recognition domain,9,36,1917,1.0,1.0
+81282,b.1.18.2,E-set domains of sugar-utilizing enzymes,9,36,1917,0.92820813771518,0.18048579946235896
+51943,c.3.1.5,"FAD/NAD-linked reductases, N-terminal and central domains",10,45,2113,1.0,1.0
+49159,b.1.1.4,I set domains,8,28,1711,0.9800450864156299,0.5275939477482823
+52403,c.26.2.1,N-type ATP pyrophosphatases,8,28,1709,0.9999164089275265,0.9947965850059445
+89902,d.38.1.5,PaaI/YdiI-like,10,45,2120,0.9961320754716981,0.9063114466104867
+51381,c.1.2.4,Tryptophan biosynthesis enzymes,10,45,2120,1.0,1.0
+50815,b.60.1.1,Retinol binding protein-like,10,45,2120,1.0,1.0
+63379,a.4.5.28,MarR-like transcriptional regulators,10,45,2120,1.0,1.0
+48727,b.1.1.1,V set domains (antibody variable domain-like),10,45,2119,0.993351161449321,0.7659801853321959
+54638,d.38.1.1,4HBT-like,10,45,2120,0.9916771488469601,0.8060790932354868
+50448,b.43.3.1,Elongation factors,7,21,1505,1.0,1.0
+55470,d.90.1.1,NADH oxidase/flavin reductase,8,28,1712,1.0,1.0
+53598,c.71.1.1,Dihydrofolate reductases,8,28,1712,1.0,1.0
+46463,a.1.1.2,Globins,8,28,1712,1.0,1.0
+51210,b.82.3.2,cAMP-binding domain,10,45,2120,1.0,1.0
+49563,b.7.1.1,PLC-like (P variant),8,28,1712,0.9933452937249666,0.6954313097760136
+53168,c.56.2.1,Purine and uridine phosphorylases,10,45,2120,1.0,1.0
+56282,d.157.1.1,Zn metallo-beta-lactamase,7,21,1505,1.0,1.0
+47773,a.60.1.2,SAM (sterile alpha motif) domain,6,15,1296,1.0,1.0
+54929,d.58.7.1,Canonical RBD,4,6,872,1.0,1.0
+81290,b.1.18.10,Filamin repeat (rod domain),4,6,872,1.0,1.0
+54118,d.9.1.1,Interleukin 8-like chemokines,6,15,1296,1.0,1.0
+49575,b.7.1.2,Synaptotagmin-like (S variant),4,6,872,1.0,1.0

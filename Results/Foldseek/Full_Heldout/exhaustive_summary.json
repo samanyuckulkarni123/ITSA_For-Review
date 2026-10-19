@@ -1,0 +1,91 @@
+{
+  "configuration": {
+    "exhaustive_search": true,
+    "evalue_threshold": "1e30",
+    "max_seqs": 100000,
+    "score": "maximum probability across both directions",
+    "foldseek_commit": "463739e0014a1549a527de589102cde98f802f37"
+  },
+  "aggregate": {
+    "roc_auc": 0.98539565935137,
+    "average_precision": 0.7799058991648267,
+    "reported_pairs": 24520,
+    "missing_pairs": 0,
+    "nonfinite_unordered_pairs_scored_zero": 1,
+    "positive_median": 1.0,
+    "negative_median": 0.0
+  },
+  "bootstrap_unit": "held-out SCOPe superfamily",
+  "superfamilies": 24,
+  "queries": 222,
+  "replicates": 2000,
+  "metrics": {
+    "Foldseek exhaustive AP": {
+      "estimate": 0.9134247538311766,
+      "ci_low": 0.8422377008417721,
+      "ci_high": 0.9745529496307186
+    },
+    "Foldseek exhaustive AUC": {
+      "estimate": 0.9893060204299586,
+      "ci_low": 0.9770953401161685,
+      "ci_high": 0.9982144376850225
+    },
+    "Foldseek exhaustive P@10": {
+      "estimate": 0.6457736823361823,
+      "ci_low": 0.5666587651353276,
+      "ci_high": 0.7225949074074074
+    },
+    "Foldseek exhaustive R@10": {
+      "estimate": 0.9340554764165875,
+      "ci_low": 0.8724752090116673,
+      "ci_high": 0.9836290233686068
+    },
+    "ITSA AP": {
+      "estimate": 0.5814305621556312,
+      "ci_low": 0.503976790907064,
+      "ci_high": 0.6590551842404769
+    },
+    "ITSA AUC": {
+      "estimate": 0.9147944294185092,
+      "ci_low": 0.8817269208387386,
+      "ci_high": 0.9414513635530373
+    },
+    "ITSA P@10": {
+      "estimate": 0.40605133292633294,
+      "ci_low": 0.3465798611111111,
+      "ci_high": 0.4616443452380951
+    },
+    "ITSA R@10": {
+      "estimate": 0.5923346843485732,
+      "ci_low": 0.5194393922692534,
+      "ci_high": 0.6633578240175462
+    },
+    "ITSA shuffled AP": {
+      "estimate": 0.21108923342675356,
+      "ci_low": 0.1469350073527083,
+      "ci_high": 0.2929605727351886
+    },
+    "TM-align AP": {
+      "estimate": 0.9597270726724031,
+      "ci_low": 0.9128749256056544,
+      "ci_high": 0.9932031907635163
+    }
+  },
+  "contrasts": {
+    "ITSA minus Foldseek exhaustive AP": {
+      "estimate": -0.33199419167554545,
+      "ci_low": -0.4259312461237921,
+      "ci_high": -0.23610840549969783
+    },
+    "ITSA minus shuffled AP": {
+      "estimate": 0.3703413287288776,
+      "ci_low": 0.26833647636483626,
+      "ci_high": 0.4718356451548112
+    },
+    "ITSA minus TM-align AP": {
+      "estimate": -0.37829651051677193,
+      "ci_low": -0.46072525742704523,
+      "ci_high": -0.29564234199037076
+    }
+  }
+}
